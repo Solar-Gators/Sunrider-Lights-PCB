@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TPS629206QDRLRQ1
+D Switching Voltage Regulators Automotive 3-V to 17-V, 0.6-A, low-IQ, synchronous buck converter in SOT-583 package 8-SOT-5X3 -40 to 150
+K
+F https://www.ti.com/lit/gpn/TPS629206-Q1
+$ENDCMP
+#
+#End Doc Library

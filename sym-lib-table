@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "SDR0403-2R2ML")(type "KiCad")(uri "C:/Users/Taylor Gerke/Downloads/SDR0403-2R2ML/SDR0403-2R2ML.kicad_sym")(options "")(descr ""))
+  (lib (name "USBLC6-2SC6")(type "KiCad")(uri "C:/Users/Taylor Gerke/Downloads/USBLC6-2SC6/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "1825232-1")(type "KiCad")(uri "C:/Users/Taylor Gerke/Downloads/1825232-1/1825232-1.kicad_sym")(options "")(descr ""))
+  (lib (name "SS54")(type "KiCad")(uri "C:/Users/Taylor Gerke/Downloads/SS54/SS54.kicad_sym")(options "")(descr ""))
+)

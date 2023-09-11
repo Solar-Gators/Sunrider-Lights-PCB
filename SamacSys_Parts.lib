@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPS629206QDRLRQ1
+#/16682732/589019/2.49/8/3/Integrated Circuit
+DEF TPS629206QDRLRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "TPS629206QDRLRQ1" 1450 200 50 H V L CNN
+F2 "SOTFL50P160X60-8N" 1450 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/TPS629206-Q1" 1450 0 50 H I L CNN
+F4 "Switching Voltage Regulators Automotive 3-V to 17-V, 0.6-A, low-IQ, synchronous buck converter in SOT-583 package 8-SOT-5X3 -40 to 150" 1450 -100 50 H I L CNN "Description"
+F5 "0.6" 1450 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS629206QDRLRQ1" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS629206QDRLRQ1" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS629206QDRLRQ1?qs=Znm5pLBrcAKSjTz%252BzqwnCQ%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS629206QDRLRQ1" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps629206qdrlrq1/texas-instruments?region=nac" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X FB/VSET 1 0 0 200 R 50 50 0 0 P
+X PG 2 0 -100 200 R 50 50 0 0 P
+X VOS 3 0 -200 200 R 50 50 0 0 P
+X SW 4 0 -300 200 R 50 50 0 0 P
+X GND 5 1600 0 200 L 50 50 0 0 P
+X VIN 6 1600 -100 200 L 50 50 0 0 P
+X EN 7 1600 -200 200 L 50 50 0 0 P
+X MODE/S-CONF 8 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
